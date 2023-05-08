@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Maven+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Maven Pro', sans-serif;
+    color: rgb(255, 255, 255);
+    background-image: url(https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2014%2F06%2Fnike-unveils-the-hypervenom-phantom-gold-special-version-1.jpg?q=90&w=1400&cbr=1&fit=max);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    margin-left: 30px;
+    background-color:#0C0C0C ;
+}
+
+.container .hero-heading{
+    font-family: 'Bruno Ace SC', cursive;
+    color: #def106 ;
+    margin-bottom: 40px;
+    font-size: 34px;
+}
+
+.container {
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+  }
+
+.logo img {
+    width: 70px;
+    height: 80px;
+    margin-top: 40px;
+}
+
+.items{
+    margin-top: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    align-items: center;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.items a:link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.items a:hover{
+    color: #a8a801;
+}
+
+.active {
+    color: #def106 !important;
+}
+
+.other button{
+    font-size: 1.2rem;
+    padding: 7px 3rem;
+    font-weight: bold;
+    font-family: 'Maven Pro', sans-serif;
+    margin-top: 40px;
+    border-radius: 30px;
+    background-color: #F4511E;
+    color: white;
+    border-color: #fff;
+    box-shadow: #6a6b6333 0px 7px 29px 0px;
+    cursor: pointer;
+   
+}
+
+.other button:hover {
+    background: white;
+    color: #F4511E;
+    border-color: #F4511E;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    line-height: 23px;
+    font-size: 18px;
+  }
+
+/* media queries */
+
+@media only screen and (max-width: 800px) {
+    .items {
+      display: none;
+    }
+  
+    .row {
+      grid-template-columns: 1fr;
+    }
+  
+}
